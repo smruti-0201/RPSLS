@@ -113,7 +113,7 @@ a{
   color: #04619f;
   text-decoration: none;
 }
-@media screen and (max-width :800px){
+@media screen and (max-width :400px){
   html{
     width: 100%;
   }
