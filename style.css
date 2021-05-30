@@ -113,8 +113,8 @@ a{
   color: #04619f;
   text-decoration: none;
 }
-@media screen and (max-width :400px){
-  html{
+@media only screen and (max-width :620px){
+  .container, .title, .scores,.weapons, .details, .ruless {
     width: 100%;
   }
 }
