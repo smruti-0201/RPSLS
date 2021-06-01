@@ -113,10 +113,42 @@ a{
   color: #04619f;
   text-decoration: none;
 }
-@media only screen and (max-width :400px){
-  .container, .title, .scores,.weapons, .details, .ruless {
-    width: 100%;
+@media only screen and (max-width :395px){
+ .container{
+   width: 20%;
+   min-width: 18rem;
+   padding: 2rem 1rem;
+ }
+ .title{
+   font-size: 0.5rem;
+   line-height: 0.5rem;
+
+ }
+ .scores{
+   font-size: 0.7rem;
+   line-height: 0.8rem;
+ }
+ .weapons button{
+   font-size: 1.8rem;
+   height: 4.3rem;
+   width: 4.3rem;
+   border-radius: 50%;
+   margin: 2px;
+ }
+ #result{
+   width: 6rem;
+   padding: 0.5rem 0;
+   margin: 1.8rem auto;
+   font-size: 0.6rem;
+   font-weight: 700;
+   letter-spacing: 0.2px;
+ } 
+header{
+  min-height: 1.6rem;
+  margin-bottom: 3rem;
   }
+#sss{
+  height: 150px;
+  width: 150px;
 }
-  
-}
+} 
