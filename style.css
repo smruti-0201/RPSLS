@@ -113,6 +113,11 @@ a{
   color: #04619f;
   text-decoration: none;
 }
+#sss{
+  border: none;
+  width: 300px;
+  height: 300px;
+}
 @media only screen and (max-width :395px){
  .container{
    width: 20%;
@@ -147,8 +152,11 @@ header{
   min-height: 1.6rem;
   margin-bottom: 3rem;
   }
+li{
+float: left;
+  }
 #sss{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 200px;
 }
 } 
