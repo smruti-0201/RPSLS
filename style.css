@@ -152,6 +152,9 @@ header{
   min-height: 1.6rem;
   margin-bottom: 3rem;
   }
+ul{
+  list-style-type: none;
+}
 li{
 float: left;
   }
